@@ -16,15 +16,20 @@ R was used for the data analysis and generating plots. Specifically, ggplot (fro
 ## File Locations and Data Dictionary
 
 The structure of the NID-HighHazard directory is outlined below: 
+
 **Figures** - Figures created as a part of this effort. Plot contains several subfolders:
   HighHazard - Plots made with latest iteration of NID R code (rev2)
   Presentation Plots - Created for presentation purposes - same plots as High Hazard folder with some changes to appearance
   Rev1_plots - Plots made with first iteration of NID R code. Some of these were replicated with Rev2 with improvements
   SigHazard - Four plots made during bried significant hazard analysis
   0.NID All Hazard Dams DA ECDF.png - ECDFs of drainage area for all 3 hazard classifications
+  
 **Downloads** - Downloaded data, including NID csv
+
 **Export** - Statisics exported from R that were used for mapping. These summary stats were joined with state shapefile in GIS pro to create Maps
+
 **ArcGIS** - ArcGIS Pro files. Includes an SHP folder for shapefiles used. Files for all APRX map files should be self contained in folders/gdb. 
+
 **R** - R code used in creating plots and stats. ss folder condtains superseded codes and/or outdated code that was no longer necessary. Retained for reference purposes.
   All R code is commented. Most of the lines are for plotting
 
