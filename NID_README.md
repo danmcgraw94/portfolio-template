@@ -40,13 +40,21 @@ The structure of the NID-HighHazard directory is outlined below:
   All R code is commented. Most of the lines are for plotting
 
 DSOD Inspection and Reevaluation Protocols_a_y19-jfe.pdf  -  California Dam Safety Protocals
+
 HighHazardDamClusters_Raleigh - Interesting clusters of high hazard dams in Raleigh, NC. NC had one of the largest numbers of high hazard dams nationally
+
 NID Bugs.docx - Bugs I came across early in the work. Unfortunately this was not updated very long after
+
 NID Data Dictionary August 2022.pdf  - Data Dictionary for NID data vis the NID site
+
 NID Data Analysis Results.docx  -  Summary write up of the data analysis conducted with accompanying figures
+
 DSOD Inspection and Reevaluation Protocols_a_y19-jfe.pdf  -  California Dam Safety Protocals
+
 State Dam IDF Regs.xlsx  -  Summarized dam safety regulations/design flood guidance
+
 sum_of_existing_guidelines_for_hydrologic_safety_of_dams.pdf  -  FEMA document used in Design Flood & State Reg analysis
+
 
 ## Lessons Learned:
 
