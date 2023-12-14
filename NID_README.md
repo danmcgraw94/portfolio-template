@@ -18,11 +18,17 @@ R was used for the data analysis and generating plots. Specifically, ggplot (fro
 The structure of the NID-HighHazard directory is outlined below: 
 
 **Figures** - Figures created as a part of this effort. Plot contains several subfolders:
+
   HighHazard - Plots made with latest iteration of NID R code (rev2)
+  
   Presentation Plots - Created for presentation purposes - same plots as High Hazard folder with some changes to appearance
+  
   Rev1_plots - Plots made with first iteration of NID R code. Some of these were replicated with Rev2 with improvements
+  
   SigHazard - Four plots made during bried significant hazard analysis
+  
   0.NID All Hazard Dams DA ECDF.png - ECDFs of drainage area for all 3 hazard classifications
+  
   
 **Downloads** - Downloaded data, including NID csv
 
