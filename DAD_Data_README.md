@@ -28,3 +28,9 @@ The structure of the SPASdirectory is outlined below:
 **PaintedRock_DAD** - DAD tables for Painted Rock Storms identified by LA District. Also contains the largest 10 storms for 24-hour-100-sqmi, 72-hr-1000-sqmi, and 72-hr-10000-sqmi depths. DADoutput contains extended duration-area fields from Python data extraction (AZ_DADtoCSV)
 
 **States** - Duplicated data of above, except DAD data for specific statewide PMP studies (for example, only analyzed DAD tables in PA GDB for PA_Analyzed_Storms.csv)
+
+**SPAS_Master.csv** - List of all SPAS analyzed Storm locations. Duplicate SPAS_IDs
+
+**SPAS_Master_Unique.csv** - The above was filtered by "unique" SPAS_IDs in R. IDs with different precip depths were resolved by selecting the larger 24-hr,100-sqmi depth
+
+**SPAS_Storm_Depths.csv** - The Unique SPAS_IDs were further filtered by unique storm IDs (the 4-digit number. EX: SPAS_1111_2 - Storm ID is 1111). The largest 24-hr,100-sqmi depth for each storm was selected as the "center"
